@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
+
     >
 
     <TextView
+        android:id="@+id/question_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/text1"
+        android:gravity="center"
         android:padding="24dp"
+        tools:text="@string/text1"
         />
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-        <Button
-            android:id="@+id/fals"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/fals" />
 
         <Button
             android:id="@+id/tru"
@@ -29,8 +28,21 @@
             android:text="@string/tru" />
 
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
+    </LinearLayout>
 
+    <Button
+        android:id="@+id/fals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fals" />
 
-
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_button" />
 </LinearLayout>
