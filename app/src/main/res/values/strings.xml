@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Trygit</string>
+    <string name="tru">TRUE</string>
+    <string name="fals">FALSE</string>
+    <string name="text1">Canberra is the capital of Australia</string>
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
 </resources>
